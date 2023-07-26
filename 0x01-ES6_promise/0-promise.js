@@ -1,6 +1,5 @@
 export default function getResponseFromAPI() {
    return new Promise((resolve, reject) => {
-    if (!success) reject(new Error('The fake API is not working currently'));
     resolve("success");
   });;
 }
